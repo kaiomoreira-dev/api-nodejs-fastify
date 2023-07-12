@@ -1,3 +1,9 @@
+## Intro
+* Aplicação básica para aprender como funciona os fundamentos de NodeJS utilizando o framework Fastify.
+
+## Description
+* É uma API REST utilizando com objeivo de registrar transações de diferentes usuário. Essa transações podem ter tipo diferentes como 'Debit' para desconto e 'Credit' para incremento dos montantes. Resultando em rotas que é possivel verificar resumo da conta e das transações feita para usuário diferente usando cookies.
+
 ## Requisitos Funcionais(RF)
 * [x] O usuário deve poder criar uma conta;
 * [x] O usuário deve poder obter um resumo da sua conta;
