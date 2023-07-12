@@ -2,8 +2,8 @@
   <a href="https://fastify.dev/" target="blank"><img src="https://fastify.dev/img/logos/fastify-white.png" width="400" alt="Fastify Logo" /></a>
 </p>
 
-<div style="background-color: black">
-ssssss</div>
+<p style="background-color: yellow;">
+ssssss</p>
 
 
 
