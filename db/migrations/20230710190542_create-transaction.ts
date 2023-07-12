@@ -8,7 +8,7 @@ export async function up(knex: Knex): Promise<void> {
     await knex.schema.createTable('transaction', (table) => {
         table.uuid('id').primary(),
         table.text('description').notNullable(),
-        table.decimal('amount', 10, 2).notNullable(),
+        table.float('amount', 10, 2).notNullable(),
         table.timestamp('createdAt').defaultTo(knex.fn.now()).notNullable()
     })
 }
