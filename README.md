@@ -20,3 +20,34 @@
 * [x] Deve ser possível identificar o usuário entre as requisições;
 * [x] O usuário só pode visualizar transações que ele criou;
 
+## Running the app
+
+```bash
+# development mode
+$ npm run start:dev
+
+# production mode
+$ npm run start:prod
+```
+
+## Test
+
+```bash
+# e2e tests
+$ npm run test:e2e
+```
+
+## Fix code
+```bash
+# fix code with eslint
+$ npm run lint
+```
+
+## Build
+```bash
+# build project for JS
+$ npm run build
+```
+
+# Owner
+[<img src="https://avatars.githubusercontent.com/u/56137536?s=400&u=a74073f1d0f605815a4f343436c791ab7b7dc184&v=4" width=115><br><sub>Kaio Moreira</sub>](https://github.com/kaiomoreira-dev)
