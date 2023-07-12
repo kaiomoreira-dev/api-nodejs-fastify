@@ -1,11 +1,11 @@
-<p align="center">
+<p align="center" style="background-color: black">
   <a href="https://fastify.dev/" target="blank"><img src="https://fastify.dev/img/logos/fastify-white.png" width="400" alt="Fastify Logo" /></a>
 </p>
 
-<p style="background-color: yellow;">
-ssssss</p>
-
-
+<p align="center">
+  <a href="https://fastify.dev/" target="blank"><img src="https://upload.wikimedia.org/wikipedia/commons/0/0a/Fastify_logo.svg
+" width="400" alt="Fastify Logo" /></a>
+</p>
 
 ## Intro
 * Aplicação básica para aprender como funciona os fundamentos de NodeJS utilizando o framework Fastify.
