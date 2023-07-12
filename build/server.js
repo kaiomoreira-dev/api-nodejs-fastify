@@ -22,7 +22,7 @@ var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__ge
   mod
 ));
 
-// src/.env/index.ts
+// src/env/index.ts
 var import_zod = require("zod");
 var import_config = require("dotenv/config");
 var import_dotenv = require("dotenv");
@@ -35,7 +35,7 @@ var envSchema = import_zod.z.object({
   NODE_ENV: import_zod.z.enum(["development", "production", "test"]).default("development"),
   DATABASE_URL: import_zod.z.string().nonempty(),
   DATABASE_CLIENT: import_zod.z.enum(["sqlite", "pg"]).default("sqlite"),
-  PORT: import_zod.z.number().default(3333)
+  PORT: import_zod.z.coerce.number().default(3333)
 });
 var _env = envSchema.safeParse(process.env);
 if (_env.success === false) {
